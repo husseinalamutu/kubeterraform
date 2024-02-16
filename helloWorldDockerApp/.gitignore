@@ -1,7 +1,5 @@
 node_modules
 .terraform
-terraform.tfstate
-package.json
-.terraform.lock.hcl
-package-lock.json
-terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+.terraform/
