@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-app
+  template:
+    metadata:
+      labels:
+        app: hello-app
+    spec:
+      containers:
+      - name: hellocontainer
+        image: husseinalamutu/helloapp:2
+        ports:
+        - containerPort: 3000
+        imagePullPolicy: Always  # Set the image pull policy to "Always"

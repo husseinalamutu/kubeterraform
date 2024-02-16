@@ -1,0 +1,6 @@
+config/
+**/node_modules
+**/.terraform/
+**/.terraform/**
+**/terraform/**
+**/package/**
