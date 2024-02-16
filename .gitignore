@@ -1,6 +1,6 @@
 config/
 node_modules
-.terraform
-*.tfstate
-*.tfstate.backup
-.terraform/
+/helloWorldDockerApp/.terraform
+/helloWorldDockerApp/*.tfstate
+/helloWorldDockerApp/*.tfstate.backup
+/helloWorldDockerApp/.terraform/
