@@ -24,7 +24,9 @@ Before running the scripts, make sure you have the following tools installed:
 ## Usage
 
 1. Run `setup-cluster.sh` to install Kind and create a local Kubernetes cluster.
-2. Run `main.tf` to deploy the Node.js application image to the Kubernetes cluster.
+2. Run `docker build` to build the Node.js application.
+3. Run `docker push` to push it to your docker hub repository.
+4. Run `main.tf` to deploy the Node.js application image to the Kubernetes cluster.
 
 ## Notes
 
