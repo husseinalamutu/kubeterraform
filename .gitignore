@@ -1,6 +1,5 @@
 config/
-**/node_modules
-**/.terraform/
-**/.terraform/**
-**/terraform/**
-**/package/**
+helloWorldDockerApp/node_modules
+helloWorldDockerApp/.terraform*
+helloWorldDockerApp/terraform*
+helloWorldDockerApp/package*
