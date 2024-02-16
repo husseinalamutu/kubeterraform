@@ -1,5 +1,1 @@
 config/
-helloWorldDockerApp/node_modules
-helloWorldDockerApp/.terraform*
-helloWorldDockerApp/terraform*
-helloWorldDockerApp/package*
